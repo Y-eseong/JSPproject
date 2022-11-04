@@ -18,7 +18,8 @@
     String zip = request.getParameter("zip");
     String isCheck = request.getParameter("isCheck");
     String isCheckMSG = "";
-    if(isCheck.equals("1")) isCheckMSG = "Check m out 체크됨!";
+    if(isCheck.equals("1")) isCheckMSG = "Check me out 체크됨!";
+    else isCheckMSG = "Check me out 체크안됨!";
 %>
 <html>
 <head>
